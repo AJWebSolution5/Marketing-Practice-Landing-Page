@@ -16,7 +16,7 @@ body {
     background-size: cover;
 }
 .navbar-brand {
-    margin-left: -30px;
+    margin-left: -10px;
 }
 /* Hero Section Styles */
 
@@ -270,6 +270,19 @@ footer .lead {
     
     footer {
         padding-left: 20px;
+    }
+    footer .mobile-flex {
+        justify-content: start;
+    }
+    footer svg:nth-child(1) {
+        margin-bottom: 50px;
+    }
+    .footer-col-2 {
+        margin-left: 0px;
+    }
+    footer .lead {
+        margin-right: 0px;
+        margin-top: 10px;
     }
 
 }
