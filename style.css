@@ -16,8 +16,10 @@ body {
     background-size: cover;
 }
 .navbar-brand {
-    margin-left: -10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
+
 /* Hero Section Styles */
 
 .hero {
@@ -185,6 +187,14 @@ footer .lead {
 
 /* Mobile Styles */
 
+@media (min-width: 620px) {
+
+    .navbar-brand {
+        margin-left: 0px;
+    }
+    
+}
+
 @media (max-width: 768px) {
 
     .background-img{
@@ -194,9 +204,7 @@ footer .lead {
         background-position: center center;
         
     }
-    .navbar-brand {
-        margin-left: 0px;
-    }
+    
 
     /* Hero Section Styles */
 
