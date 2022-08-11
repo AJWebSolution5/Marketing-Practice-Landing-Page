@@ -177,7 +177,9 @@ footer .lead {
         
     }
 
-
+    .carousel-section {
+        padding: 0px 20px;
+    }
     .carousel-item img{
         margin-bottom: 16px;
     }
