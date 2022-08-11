@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.background-img{
+    background: url(IMG/Primary\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar-brand {
+    margin-left: -30px;
+}
+/* Hero Section Styles */
+
+.hero {
+    padding: 150px 0px 90px 50px;
+    font-weight: 700;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    width: 70%;
+}
+.hero p{
+    font-size: 22px;
+    
+}
+
+/* Goals + Services Section Styles */
+
+.goals-section {
+    padding-top: 100px;
+}
+.goals {
+    padding-right: 100px;
+    padding-left: 20px;
+    color: #2F2F3B;
+    width: 50%;
+}
+.services {
+    width: 40%;
+    padding-right: 30px;
+    padding-left: 20px;
+    color: #2F2F3B;
+}
+.goals p:first-child, .services p:first-child {
+    color: #FF4D54;
+    font-weight: 700;
+    font-size: 22px;
+}
+.goals h2, .services h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.goals p:nth-child(3){
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.goals span, footer span {
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.goals-img {
+    margin-right: -120px;
+}
+.services-section {
+    padding-top: 200px;
+}
+
+/* Accordion Section Styles */
+
+.accordion-flush {
+    width: 55%;
+    
+}
+.accordion-item button{
+    font-size: 28px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+/* Carousel Section Styles */
+
+.carousel-section {
+    padding: 150px 0px 96px 0px;
+}
+
+/* Footer Section Styles */
+
+footer {
+    background: linear-gradient(180deg, #FF4D54 11.72%, #CC3E43 100%);
+    padding: 100px 50px 50px 60px
+}
+footer .navbar-brand {
+    margin-left: 0px;
+}
+
+.footer-row-1 {
+    margin-bottom: 80px;
+}
+.footer-col-2 {
+    margin-left: auto;
+    padding-right: 50px;
+}
+
+footer .tagline{
+    font-weight: 700;
+    font-size: 18px;
+}
+.navbar-nav .nav-item p {
+    font-size: 15px;
+}
+.navbar-nav .nav-link {
+    font-size: 22px;
+}
+footer .lead {
+    font-size: 15px;
+    margin-top: 50px;
+    margin-right: 45px;
+}
+
+/* Tablet Styles */
+
+@media (max-width: 991px) {
+
+    .background-img{
+        background-position: center center;
+        
+    }
+   
+
+    /* Hero Tablet */
+
+    .hero h1{
+        font-size: 32px;
+        
+    }
+    .hero p{
+        font-size: 20px;
+        
+    }
+
+     /* Goals & Services Tablet */
+
+     .goals {
+        padding-right: 0px;
+        padding-left: 20px;
+        margin-right: 100px;
+        color: #2F2F3B;
+        width: 50%;
+    }
+     .goals p:first-child, .services p:first-child {
+        font-size: 20px;
+    }
+    .goals h2, .services h2 {
+        font-size: 28px;
+    }
+    .goals-img {
+        margin-right: 0px;
+    }
+    .goals-img img {
+        width: 100%;
+        padding: 0px 0px;
+        
+    }
+
+
+    .carousel-item img{
+        margin-bottom: 16px;
+    }
+    
+    
+}
+
+/* Mobile Styles */
+
+@media (max-width: 768px) {
+
+    .background-img{
+        background: url(IMG/Primary-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+    .navbar-brand {
+        margin-left: 0px;
+    }
+
+    /* Hero Section Styles */
+
+    .hero {
+        padding: 50px 20px;
+        font-weight: 700;
+    }
+    
+    .hero h1{
+        font-size: 28px;
+        line-height: 32px;
+        width: 100%;
+    }
+    .hero p{
+        font-size: 16px;
+        
+    }
+
+    /* Goals & Services Styles */
+
+    .goals {
+        width: 100%;
+    }
+    .goals p:first-child, .services p:first-child {
+        font-size: 16px;
+    }
+    .goals h2, .services h2 {
+        font-size: 22px;
+    }
+    .goals-section {
+        padding-top: 64px;
+    }
+    .goals, .services {
+        padding: 0px 20px;
+    }
+    .goals-img {
+        margin-right: 0px;
+    }
+    .goals-img img {
+        width: 100%;
+        padding: 0px 20px;
+        
+    }
+    .services-section {
+        padding-top: 112px;
+    }
+    
+    .services {
+        width: 100%;
+    }
+
+    /* Accordian Section Styles */
+
+    .accordion-flush {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .accordion-item button{
+        font-size: 16px;
+    
+    }
+    .accordion-body {
+        font-size: 14px;
+    }
+
+    /* Carousel & Footer */
+
+    .carousel-section {
+        padding: 100px 0px;
+    }
+    
+    footer {
+        padding-left: 20px;
+    }
+
+}
