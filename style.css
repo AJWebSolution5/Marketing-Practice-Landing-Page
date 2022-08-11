@@ -294,3 +294,8 @@ footer .lead {
     }
 
 }
+@media (min-width: 1200px) {
+    .goals {
+        padding-right: 50px ;
+    }
+}
